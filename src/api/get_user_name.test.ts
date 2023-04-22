@@ -7,8 +7,6 @@ import {resetDB} from "@/api/db/reset_db";
 import {databaseManager} from "@/api/db";
 import {User} from "./models/user";
 
-
-
 describe("getUserName", () => {
   beforeEach(async () => {
     const db = await databaseManager.getInstance();

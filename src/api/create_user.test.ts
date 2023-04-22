@@ -22,7 +22,7 @@ describe("createUser", () => {
   it("Create user with UserRawData", async () => {
     const userRawData = {
       name: "Taka",
-      email: "xxx@email.com"
+      email: "xxx@email.com",
     };
     const user = User.fromRawData(userRawData);
     await user.save();
@@ -31,7 +31,7 @@ describe("createUser", () => {
     const userRawDataWithId = {
       id: 1,
       name: "Taka",
-      email: "xxx@email.com"
+      email: "xxx@email.com",
     };
     const user = User.fromRawDataWithId(userRawDataWithId);
     await user.save();
@@ -40,7 +40,7 @@ describe("createUser", () => {
     const userRawDataWithId = {
       id: 1,
       name: "Taka",
-      email: "xxx@email.com"
+      email: "xxx@email.com",
     };
     const user = User.fromRawDataWithId(userRawDataWithId);
     await user.save();

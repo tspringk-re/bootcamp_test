@@ -1,6 +1,6 @@
-import {countWord} from "./index"
+import {countWord} from "./index";
 
-describe('countWord', () => {
+describe("countWord", () => {
   it("Count 'Hello' in 'Hello, World!' is 1 time", () => {
     expect(countWord("Hello  World", "Hello")).toBe(1);
   });
