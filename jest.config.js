@@ -14,5 +14,5 @@ module.exports = {
       statements: 100,
     },
   },
-  watchman: false,
+  watchman: true,
 };
